@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+    background-color: #EEEEEE;
+  }
+  
+  /*h1 {
+    text-align: center;
+    color: #222831;
+    background-color: #ccc; /* Cor de fundo */
+    /*padding: 20px; /* Espaçamento interno */
+    /*border-radius: 10px;/* Bordas arredondadas */
+    /*display: block; /* Mantém o tamanho do conteúdo */
+    /*max-width: 40%; /* Largura máxima para evitar que o conteúdo estoure */
+    /*margin: 0 auto; /* Centraliza o elemento */
+
+  .header-container {
+    width: 100%;
+    background-color: #ccc;
+    padding: 20px 0;
+  }
+    
+  .header-container h1 {
+    margin: 0;
+    text-align: center;
+    color: #222831;
+  }
+  
+  h2 {
+    margin-top: 10px;
+    color: #222831;
+  }
+  
+  .form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px
+  }
+
+  .form label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+
+  .form input {
+    width: 100px;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 60%;
+    margin-left: 100px;
+    margin-bottom: 10px;
+  }
+  
+  th, td {
+    border: 3px solid #ccc;
+    padding: 10px;
+  }
+  
+  th {
+    text-align: left;
+    background-color: #76ABAE;
+    color: #222831;
+  }
+  
+  button {
+    width: 123px;
+    margin-top: 7px;
+    padding: 10px 16px;
+    font-size: 14px;
+    background-color: #78A083;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+  }
+  
+  button:hover {
+    background-color: #78A083;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    padding: 10px;
+    font-size: 14px;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+  }
+  
+  #registro-saida {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .container::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+
+  footer {
+    background-color: #222831;
+    color: #EEEEEE;
+    text-align: center;
+    padding: 12px 0;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .footer-content p {
+    margin: 5px 0;
+  }
+  
+  .footer-content a {
+    color: #76ABAE;
+    text-decoration: none;
+  }
+  
+  .footer-content a:hover {
+    text-decoration: underline;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
